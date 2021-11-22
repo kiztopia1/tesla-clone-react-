@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width:100%
+  width:100%;
+  box-sizing: border-box;
 }
 
 *{
@@ -15,4 +16,5 @@ body {
   color: #606165;
   margin:0;
   padding:0;
+  
 }

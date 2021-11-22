@@ -34,7 +34,7 @@ const Wrap = styled.div`
 `
 
 const Text = styled.div`
-    padding-top:70px;
+    padding-top:100px;
 `
 const ButtonGroup = styled.div`
     display:flex;
