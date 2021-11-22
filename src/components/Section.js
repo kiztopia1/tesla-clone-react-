@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import './Section.css'
-function Section({name}) {
+function Section({name, img, text}) {
     return (
         <Wrap className='wrap'>
-            <img  className='hero' src='/images/model-s.avif' alt='model-s' />
+            <img  className='hero' src={`/images/${img}`} alt='model-s' />
             <Text>
                 <h1>{name}</h1>
-                <p>Order Online for Touchless Delivery</p>
+                <p>{text}</p>
             </Text>
             <BtnCont>
                 <ButtonGroup>

@@ -4,9 +4,31 @@ import Section from './Section'
 function Main() {
     return (
         <Container>
-            <Section name="model x"/>
-            <Section name="model s"/>
-            <Section name="model y"/>
+            <Section 
+            name="model S"
+            img="model-x.jpg"
+            text="Order Online for Touchless Delivery"
+            />
+            <Section 
+            name="Model S"
+            img="model-s.jpg"
+            text="Order Online for Touchless Delivery"
+            />
+            <Section 
+            name="Model Y"
+            img="model-y.jpg"
+            text="Order Online for Touchless Delivery"
+            />
+            <Section 
+            name="Solar Panel"
+            img="solar-panel.jpg"
+            text="Order Online for Touchless Delivery"
+            />
+            <Section 
+            name="Solar Roof"
+            img="solar-roof.jpg"
+            text="Solar Roof Costs Less Than a New Roof"
+            />
         </Container>
     )
 }
