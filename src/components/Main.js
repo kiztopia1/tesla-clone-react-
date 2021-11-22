@@ -4,7 +4,9 @@ import Section from './Section'
 function Main() {
     return (
         <Container>
-            <Section/>
+            <Section name="model x"/>
+            <Section name="model s"/>
+            <Section name="model y"/>
         </Container>
     )
 }
