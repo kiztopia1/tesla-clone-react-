@@ -49,6 +49,10 @@ const Model = styled.div`
     justify-content: space-between;
     width:40%;
 
+    @media (max-width: 768px){
+        display:none
+    }
+
 `
 
 const Right = styled.div`   
